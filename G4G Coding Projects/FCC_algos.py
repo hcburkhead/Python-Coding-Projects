@@ -8,11 +8,11 @@ def verify(index, function_type):
         print(f"{function_type} Target not found in list")  
 
 # Function to verify recursive binary search results  
-def verify_recursive_binary_search(result, target):  
+def verify_recursive_binary_search(result):  
     if result is not None:  
-        print(f"RecBinary Search Target {target} found at index: {result}")  
+        print(f"RecBinary Search Target found at index: {result}")  
     else:  
-        print(f"RecBinary Search Target {target} not found in list")  
+        print(f"RecBinary Search Target not found in list")  
 
 # Binary search function  
 def verify_binary_search(index, function_type):  # Accept index and function type as parameters  
@@ -85,7 +85,7 @@ while True:
 
         # Check recursive_binary_search  
         result = recursive_binary_search(numbers, target)  
-        verify_recursive_binary_search(result, target)    
+        verify_recursive_binary_search(result)    
 
     except BadValue:  # Catch from invalid input  
         print("Enter a valid integer please.")
