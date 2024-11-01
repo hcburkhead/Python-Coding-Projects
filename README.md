@@ -7,7 +7,7 @@ G4G Projects- Geek4Geek Python Course video projects I followed and slightly mod
 Individual Projects- Completely coded by me for some random purpose:
     
   - Shadowrun Protagonist Log (WIP) -Python and Js 
-      .Player can create and modify logs for their Shadowrun protagonist or other related role playing game environment
-      .Hackerman interface with different themes for UX/UI functions
+      - Player can create and modify logs for their Shadowrun protagonist or other related role playing game environment
+      - Hackerman interface with different themes for UX/UI functions
 
 More coming in the future :)
