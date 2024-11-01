@@ -1,7 +1,7 @@
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # value range  
 
 # Function to verify the linear search results  
-def verify(index, function_type):  
+def verify_linear_search(index, function_type):  
     if index is not None:  
         print(f"{function_type} Target found at index:", index)  
     else:  
@@ -77,7 +77,7 @@ while True:
 
         # Check linear search  
         result = linear_search(numbers, target)  
-        verify(result, "Linear Search")  # Pass function type here  
+        verify_linear_search(result, "Linear Search")  # Pass function type here  
 
         # Check binary search  
         result = binary_search(numbers, target)  
