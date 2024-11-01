@@ -66,7 +66,7 @@ while True:
 
     if input_value == "":    
         print("Exiting the program.")  
-        break  # Exit the loop  
+        break  
     
     try:  
         target = int(input_value)  # Convert input to int type  
