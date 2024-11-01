@@ -73,15 +73,15 @@ while True:
 
         if target < 1 or target > 10:  
             print("Please enter an integer within the range of 1 to 10.")  
-            continue  # Ask for input again if outside range  
+            continue  
 
-        # Check linear search  
+        # Check linear search + Passes Function Type
         result = linear_search(numbers, target)  
-        verify_linear_search(result, "Linear Search")  # Pass function type here  
+        verify_linear_search(result, "Linear Search") 
 
-        # Check binary search  
+        # Check binary search + Passes Function Type
         result = binary_search(numbers, target)  
-        verify_binary_search(result, "Binary Search")  # Pass function type here  
+        verify_binary_search(result, "Binary Search")  
 
         # Check recursive_binary_search  
         result = recursive_binary_search(numbers, target)  
